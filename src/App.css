@@ -1,0 +1,25 @@
+/* Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  color: #333;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-form {
+      padding: 15px;
+  }
+
+  nav {
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+  

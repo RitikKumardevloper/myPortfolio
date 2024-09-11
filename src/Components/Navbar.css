@@ -1,0 +1,63 @@
+/* Header Styles */
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #9393eb;
+    display: flex;
+    padding: 0px 10%;
+    justify-content: space-between;
+    align-items: center; /* Centers the content vertically */
+}
+
+/* Logo */
+.logo {
+    width: 20%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Navigation */
+.nav {
+    width: 50%;
+    height: 100%;
+}
+
+.nav-links {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+nav a {
+    color: #08090a;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.4s, border-radius 0.4s;
+    display: block;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #7d7dcd;
+    }
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px 5%;
+        height: auto; /* Allow auto height for flexibility */
+    }
+
+    .nav-links {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
